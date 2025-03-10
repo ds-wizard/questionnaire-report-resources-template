@@ -1,9 +1,9 @@
 {
   "organizationId": "dsw",
-  "templateId": "questionnaire-report",
+  "templateId": "questionnaire-report-resources",
   "version": "2.15.0",
-  "name": "Questionnaire Report",
-  "description": "Exported questions and answers from a questionnaire",
+  "name": "Questionnaire Report with Resource Pages",
+  "description": "Exported questions and answers from a questionnaire including Resource Pages",
   "metamodelVersion": 16,
   "license": "Apache-2.0",
   "allowedPackages": [
