@@ -240,7 +240,7 @@
 {%- macro renderResourceCollection(collection, humanIdentifier) -%}
 \section*{{ "{" }}{{ humanIdentifier }}. {{ collection.title }}{{ "}" }}
 
-{%- for page in collection.pages -%}
+{%- for page in collection.pages %}
 \subsection*{{ "{" }}{{ humanIdentifier }}.{{ loop.index }}. {{ page.title }}{{ "}" }}\label{{ "{resourcePage-" }}{{ page.uuid }}{{ "}" }}
 
 \begin{markdown}
